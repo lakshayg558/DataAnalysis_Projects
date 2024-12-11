@@ -1,95 +1,114 @@
-Coupon Analysis: Coffee House and Bar
+
+# Coupon Analysis: Coffee House and Bar
 
 Welcome to the Coupon Analysis project! This document provides an overview of the analysis conducted on datasets for Coffee House and Bar coupons, exploring the characteristics of individuals who are most likely to accept these offers. The goal is to uncover actionable insights to better understand customer behavior and preferences.
 
-Project Overview
+---
+
+## Project Overview
 
 This project focuses on analyzing the acceptance rates of Coffee House and Bar coupons based on various demographic and behavioral factors. Key aspects of the dataset include:
 
-Demographics: Age, income, marital status, and presence of passengers.
+- **Demographics**: Age, income, marital status, and presence of passengers.
+- **Behavioral Traits**: Frequency of Coffee House and Bar visits, as well as visits to cheap restaurants.
+- **Coupon Acceptance**: Whether or not the individual accepted the Coffee House or Bar coupon.
 
-Behavioral Traits: Frequency of Coffee House and Bar visits, as well as visits to cheap restaurants.
+---
 
-Coupon Acceptance: Whether or not the individual accepted the Coffee House or Bar coupon.
+## Key Findings
 
-Key Findings
+### Coffee House Coupons
 
-Coffee House Coupons
+| Metric                          | Percentage  |
+|--------------------------------|-------------|
+| Overall Acceptance Rate        | 56.84%      |
+| Low-Frequency Visitors (\<= 3) | 37.06%      |
+| High-Frequency Visitors (> 3)  | 76.88%      |
+| Frequent Visitors Over 25      | 69.52%      |
+| Others                         | 33.50%      |
 
-Overall Coupon Acceptance:
+1. **Overall Coupon Acceptance**:
 
-A significant proportion of Coffee House coupons were accepted, especially by younger and socially active individuals.
+   - A significant proportion of Coffee House coupons were accepted, especially by younger and socially active individuals.
 
-Frequent Coffee House Visitors:
+2. **Frequent Coffee House Visitors**:
 
-Those who visit Coffee Houses frequently (4+ times a month) are more likely to accept coupons compared to infrequent visitors.
+   - Those who visit Coffee Houses frequently (4+ times a month) are more likely to accept coupons compared to infrequent visitors.
 
-Age and Social Dynamics:
+3. **Age and Social Dynamics**:
 
-Younger individuals (aged 21–26) are the most responsive.
+   - Younger individuals (aged 21–26) are the most responsive.
+   - People who are alone or with friends tend to accept coupons more than those accompanied by kids.
 
-People who are alone or with friends tend to accept coupons more than those accompanied by kids.
+4. **Income Influence**:
 
-Income Influence:
+   - Individuals with an annual income between \$12,500 and \$50,000 show higher acceptance rates, indicating that budget-conscious customers value these offers.
 
-Individuals with an annual income between $12,500 and $50,000 show higher acceptance rates, indicating that budget-conscious customers value these offers.
+5. **Combined Conditions**:
 
-Combined Conditions:
+   - Drivers who frequent Coffee Houses, are under 30, or visit cheap restaurants more than 4 times a month with an income below \$50K are the most likely to accept Coffee House coupons.
 
-Drivers who frequent Coffee Houses, are under 30, or visit cheap restaurants more than 4 times a month with an income below $50K are the most likely to accept Coffee House coupons.
+### Bar Coupons
 
-Bar Coupons
+| Metric                          | Percentage  |
+|--------------------------------|-------------|
+| Overall Acceptance Rate        | 41.00%      |
+| Low-Frequency Visitors (\<= 3) | 37.06%      |
+| High-Frequency Visitors (> 3)  | 76.88%      |
+| Frequent Visitors Over 25      | 69.52%      |
+| Others                         | 33.50%      |
 
-Overall Coupon Acceptance:
+1. **Overall Coupon Acceptance**:
 
-Bar coupons were accepted by socially active individuals, with an emphasis on those who frequently visit bars.
+   - Bar coupons were accepted by socially active individuals, with an emphasis on those who frequently visit bars.
 
-Frequent Bar Visitors:
+2. **Frequent Bar Visitors**:
 
-Acceptance rates were significantly higher among individuals visiting bars more than once a month.
+   - Acceptance rates were significantly higher among individuals visiting bars more than once a month.
 
-Age and Passenger Influence:
+3. **Age and Passenger Influence**:
 
-Younger drivers, especially those aged 21–26, are more likely to accept Bar coupons.
+   - Younger drivers, especially those aged 21–26, are more likely to accept Bar coupons.
+   - Drivers without kids as passengers show higher acceptance rates.
 
-Drivers without kids as passengers show higher acceptance rates.
+4. **Income and Lifestyle Influence**:
 
-Income and Lifestyle Influence:
+   - Drivers who frequently visit cheap restaurants and earn less than \$50,000 also display higher acceptance rates for Bar coupons.
 
-Drivers who frequently visit cheap restaurants and earn less than $50,000 also display higher acceptance rates for Bar coupons.
+5. **Combined Conditions**:
 
-Combined Conditions:
+   - Drivers who frequent bars, are socially active, and align with budget-conscious behaviors tend to accept Bar coupons the most.
 
-Drivers who frequent bars, are socially active, and align with budget-conscious behaviors tend to accept Bar coupons the most.
+---
 
-Why This Matters
+## Why This Matters
 
 Understanding the characteristics of customers who accept Coffee House and Bar coupons can help businesses:
 
-Target effectively: Focus on younger, socially active, and budget-conscious customers.
+- **Target effectively**: Focus on younger, socially active, and budget-conscious customers.
+- **Design better offers**: Create coupons that align with customer lifestyles and preferences.
+- **Improve engagement**: Tailor marketing strategies to increase acceptance rates.
 
-Design better offers: Create coupons that align with customer lifestyles and preferences.
+---
 
-Improve engagement: Tailor marketing strategies to increase acceptance rates.
+## How to Use This Repository
 
-How to Use This Repository
+1. **Explore the Dataset**:
 
-Explore the Dataset:
+   - Analyze the data to understand coupon acceptance trends for Coffee House and Bar.
+   - Use the provided code to replicate the analysis.
 
-Analyze the data to understand coupon acceptance trends for Coffee House and Bar.
+2. **Insights Application**:
 
-Use the provided code to replicate the analysis.
+   - Apply the findings to real-world marketing campaigns or business strategies.
 
-Insights Application:
+3. **Custom Analysis**:
 
-Apply the findings to real-world marketing campaigns or business strategies.
+   - Extend the analysis to other coupon types or explore additional demographic and behavioral factors.
 
-Custom Analysis:
+---
 
-Extend the analysis to other coupon types or explore additional demographic and behavioral factors.
+## Access the Jupyter Notebook
 
-Acknowledgments
+You can view the detailed analysis and code in the Jupyter Notebook [here](<insert-link-to-your-notebook>).
 
-This project uses anonymized data to ensure privacy and compliance with data protection standards. All insights are derived with the intention of improving customer satisfaction and business performance.
-
-Thank you for exploring this analysis. Feel free to contribute or provide feedback!

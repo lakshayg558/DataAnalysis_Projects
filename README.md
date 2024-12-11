@@ -110,5 +110,5 @@ Understanding the characteristics of customers who accept Coffee House and Bar c
 
 ## Access the Jupyter Notebook
 
-You can view the detailed analysis and code in the Jupyter Notebook [here](<insert-link-to-your-notebook>).
+You can view the detailed analysis and code in the Jupyter Notebook [here](https://github.com/lakshayg558/DataAnalysis_Projects/blob/main/assignment5_1_starter/prompt.ipynb).
 
